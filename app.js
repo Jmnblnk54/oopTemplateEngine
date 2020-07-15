@@ -14,7 +14,7 @@ const teamArray = [];
 
 // Array of questions
 inquirer
-    prompt([
+    .prompt([
         {
         type: "input",
         message: "What is the manager's name?",
